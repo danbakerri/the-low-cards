@@ -1,0 +1,184 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  right: 0;
+  left: initial;
+}
+body {
+  padding-bottom: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: "Prequel Demo";
+  src: url("/webfonts/prequel/PrequelDemo-Regular.woff2") format("woff2"),
+    url("/webfonts/prequel/PrequelDemo-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.navbar-brand,
+.offcanvas-title {
+  font-family: "Prequel Demo";
+  font-weight: normal;
+  font-style: normal;
+
+  padding: 0px;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand,
+  .offcanvas-title {
+    font-size: 2em;
+  }
+}
+
+a {
+  transition: all 0.4s ease;
+}
+.navbar-brand:focus,
+.navbar-brand:hover {
+  color: #a3ecec;
+}
+
+nav {
+  z-index: 10000;
+}
+
+img {
+  max-width: 100%;
+}
+
+/***** Discography styles *********/
+
+.cont {
+  position: relative;
+  display: block;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  margin-bottom: 20px;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+.cont:hover .image {
+  opacity: 0.3;
+}
+.cont:hover .middle {
+  opacity: 1;
+}
+.text {
+  color: #2b2b2b;
+  font-size: 1.5em;
+  font-family: "Oswald", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Prequel Demo";
+  font-weight: normal;
+  font-style: normal;
+}
+
+main .container {
+  margin-top: 3em;
+}
+.gigs {
+  background: #fff;
+  border-radius: 3px;
+}
+.album-secone {
+  margin-bottom: 20px;
+}
+img.main-image {
+  height: 0px;
+}

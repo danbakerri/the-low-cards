@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html data-bs-theme="auto" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script src="js/color-modes.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="author" content="Dan Baker" />
+
+    <meta
+      name="description"
+      content="The Low Cards are a rock band based out of Rhode Island."
+    />
+    <title>The Low Cards</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <style type="text/css">
+      h1.referral {
+        display: none !important;
+      }
+      h1.main-title {
+        font-size: 0px;
+        color: transparent !important;
+        margin: 0px !important;
+        padding: 0px !important;
+      }
+    </style>
+
+    <!--#include virtual="/includes/headcode.html" -->
+  </head>
+  <body>
+    <main>
+      <!--#include virtual="/includes/nav.html" -->
+      <div class="home">
+        <h1 class="main-title">The Low Cards</h1>
+
+        <!-- Place <div> tag where you want the feed to appear -->
+        <div id="curator-feed-new-feed-layout">
+          <a href="https://curator.io" target="_blank" class="crt-logo crt-tag"
+            >Powered by Curator.io</a
+          >
+        </div>
+
+        <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+        <script type="text/javascript">
+          /* curator-feed-new-feed-layout */
+          (function () {
+            var i,
+              e,
+              d = document,
+              s = "script";
+            i = d.createElement("script");
+            i.async = 1;
+            i.charset = "UTF-8";
+            i.src =
+              "https://cdn.curator.io/published/9c3ee216-b6ed-44ac-91d9-a64557da73a6.js";
+            e = d.getElementsByTagName(s)[0];
+            e.parentNode.insertBefore(i, e);
+          })();
+        </script>
+      </div>
+      <img
+        class="main-image"
+        src="/images/thelowcards.jpeg"
+        alt="The Low Cards"
+      />
+    </main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

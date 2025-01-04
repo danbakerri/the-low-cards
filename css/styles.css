@@ -87,8 +87,8 @@ body {
 }
 @font-face {
   font-family: "Prequel Demo";
-  src: url("./webfonts/prequel/PrequelDemo-Regular.woff2") format("woff2"),
-    url("./webfonts/prequel/PrequelDemo-Regular.woff") format("woff");
+  src: url("../webfonts/prequel/PrequelDemo-Regular.woff2") format("woff2"),
+    url("../webfonts/prequel/PrequelDemo-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
